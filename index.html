@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style/main.css">
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">folio <span>.</span></div>
+            <ul class="navItems">
+                <li><a href="#">home</a></li>
+                <li><a href="#">about</a></li>
+                <li><a href="#">skills</a></li>
+                <li><a href="#">blog</a></li>
+            </ul>
+            <div class="links">
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </nav>
+
+
+        <section class="wrapper">
+            <div class="cols cols0">
+                <span class="topline">Hello</span>
+                <h1>I'm <span class="multiText">Coder</span></h1>
+                <p>Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Blanditiis, possimus
+                    necessitatibus facilis aut, aspernatur
+                    perferendis sit, eveniet dolorum in dolor
+                    recusandae. Doloremque, facere id sequi
+                    repellat necessitatibus vitae placeat
+                    impedit!</p>
+                <div class="btns">
+                    <button>download CV</button>
+                    <button>hire me</button>
+                </div>
+            </div>
+            <div class="cols cols1">
+                <div class="imgBox">
+                    <img src="./assets/img/splash.png" id="splash" alt="">
+                    <img src="./assets/img/photo.png" alt="coder">
+                </div>
+            </div>
+        </section>
+
+    </header>
+    
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typingEffect = new Typed('.multiText', {
+            strings: ['coder', 'youtuber', 'designer'],
+            loop: true,
+            typeSpeed: 100,
+            backSpeed: 80,
+            backDelay: 1500
+        });
+    </script>
+
+    <script src="https://kit.fontawesome.com/ddf9f3190c.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
